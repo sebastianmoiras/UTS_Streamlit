@@ -7,7 +7,7 @@ st.markdown("Will you receive a loan or not?")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("Dataset_A_Loan.csv")
+    df = pd.read_csv("Dataset_A_loan.csv")
     return df
 
 df = load_data()
